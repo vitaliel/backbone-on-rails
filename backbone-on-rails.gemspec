@@ -17,7 +17,9 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test}/*`.split("\n")
 
   s.add_dependency 'railties'
-  s.add_dependency 'jquery-rails'
+  s.add_dependency 'rails-assets-backbone', '~> 1.3.3'
+  s.add_dependency 'rails-assets-underscore'
+  s.add_dependency 'rails-assets-jquery'
   s.add_dependency 'ejs'
   s.add_dependency 'eco'
 
